@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background: white;
+    margin: 20px 0;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2e3b4e;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2, h3 {
+    color: #2e3b4e;
+}
+
+.contact, .education, .expertise, .language {
+    margin-bottom: 20px;
+}
+
+.contact h2, .education h2, .expertise h2, .language h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: #2e3b4e;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
